@@ -51,7 +51,7 @@ The repository demonstrates how **Supervised Fine-Tuning (SFT)** can transform a
     └── This file.
 
 
-🚀 Quick Setup & Runtime Snippets
+## 🚀 Quick Setup & Runtime Snippets
 📦 Prerequisites
 Install the required Google Cloud, generation, and vector DB libraries:
 ```bash
@@ -59,13 +59,13 @@ conda install -c conda-forge google-cloud-aiplatform google-cloud-storage
 pip install -U google-genai gradio chromadb
 ```
 
-🔐 Authentication Setup
+## 🔐 Authentication Setup
 ```python
 # Pass service account token to your notebook environment
 %env GOOGLE_APPLICATION_CREDENTIALS=sa-244423q.json
 ```
 
-Vertex AI Fine-Tuning Launcher
+## Vertex AI Fine-Tuning Launcher
 ```python
 from vertexai.preview.tuning import sft
 
@@ -78,7 +78,7 @@ tuned_model = sft.train(
 )
 ```
 
-Programmatic Cloud Cleanup
+## Programmatic Cloud Cleanup
 ```python
 # Clean up endpoints to avoid resource charges
 endpoint.undeploy_all()
