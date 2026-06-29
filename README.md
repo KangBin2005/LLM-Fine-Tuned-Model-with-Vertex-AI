@@ -37,18 +37,18 @@ The repository demonstrates how **Supervised Fine-Tuning (SFT)** can transform a
 ├── 244423Q_Model Finetuning template v2-edit.ipynb
 │   └── SFT model training pipeline, Gradio comparison UI, and ChromaDB RAG implementation.
 │
-├── budgeting_dataset.jsonl
-│   └── The custom-curated training corpus containing targeted domain examples.
-│
-├── sa-244423q.json
-│   └── Secured service account credential file for GCP cloud authorization.
+├── data/
+│   ├── budgeting_dataset.jsonl
+│   │   └── The custom-curated SFT training corpus containing targeted domain examples.
+│   │
+│   └── budgetting101.pdf
+│       └── External knowledge document utilized as the context source for the RAG pipeline.
 │
 ├── IT3386_244423Q_AIA_Assignment_Report.docx
 │   └── Full evaluation, training analysis, project limitations, and discussion report.
 │
 └── README.md
     └── This file.
-```
 
 
 🚀 Quick Setup & Runtime Snippets
