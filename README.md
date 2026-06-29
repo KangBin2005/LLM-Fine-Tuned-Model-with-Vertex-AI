@@ -1,4 +1,4 @@
-# 🧠 LLM Fine-Tuned Model with Vertex AI
+# 🧠 AI Budgeting & Financial Literacy Coach
 
 ## 📖 About This Project
 
